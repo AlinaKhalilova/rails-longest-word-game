@@ -5,13 +5,7 @@ class GamesController < ApplicationController
   end
 
   def score
-    @letters = params[:letter]
-   start_time = params[:start_time].to_datetime
-
-   end_time = Time.now
-   @time_result = (end_time - start_time)
-
-
+   raise
   end
 
 
