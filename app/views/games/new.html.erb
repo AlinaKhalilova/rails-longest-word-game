@@ -1,3 +1,10 @@
 <h1>Games#new</h1>
-<%= @letters %>
-<p>Find me in app/views/games/new.html.erb</p>
+
+<!-- <p>Find me in app/views/games/new.html.erb</p> -->
+
+<% @letters.each do |letter|%>
+  <div>
+    <%= letter.capitalize %>
+  </div>
+
+<%end%>
